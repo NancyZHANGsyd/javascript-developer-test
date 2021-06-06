@@ -8,7 +8,7 @@ const ResultKeyEnum = {
 /**
  * Get a single Arnie Quote for a provided url
  * @param {string} url - single url to be requested, validation is omit in this case
- * @returns {Promise<*>} 
+ * @returns {Promise<*>}
  */
 const getArnieQuote = async (url) => {
   const res = await httpGet(url);
